@@ -8,10 +8,6 @@
   top: 0;
 }
 
-.top-header a {
-  color: white;
-}
-
 .top-header .header__top,
 .top-header .header__bottom {
   display: flex;
@@ -29,6 +25,10 @@
 
 .top-header .header__column {
   width: 33%;
+}
+
+.header__column .header__text-title {
+  font-weight: 600;
 }
 
 .top-header .header__bottom .header__column:first-child {
